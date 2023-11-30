@@ -10,6 +10,7 @@ html {
     height: 3306px;
     margin: 0 auto;
     background: #FFF;
+    scroll-behavior: smooth;
 }
 
 header {
