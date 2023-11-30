@@ -165,7 +165,7 @@ main {
     font-weight: 500;
 }
 
-div i {
+.card-rating i {
     font-size: 16px;
     color: #FB8200;
 }
@@ -181,6 +181,10 @@ div span {
 }
 
 .see-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -188,7 +192,47 @@ div span {
     float: right;
     color: #E02C6DDE;
 }
-.see-more i{
-    margin-left: 15px;
+
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin-top: 174px;
 }
 
+.featured img {
+    width: 404px;
+    height: 270px;
+}
+
+.featured-title {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.featured-description {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.featured-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;;
+    gap: 8px;
+    width: 155px;
+    height: 44px;
+    border: 0;
+    background: #E02C6D;
+    color: #FFFFFF;
+}
