@@ -285,10 +285,11 @@ div span {
         width: none;
         height: none;
     }
+    /* header styles  */
     header {
         margin:0;
         color: #3A3A3A;
-        padding: 20px;
+        padding: 0px 20px;
     }
     .banner{
         flex-direction: column-reverse;
@@ -322,5 +323,29 @@ div span {
         border-radius: 41px;
         background: #E02C6D;
         color: #fff;
+    }
+
+    main{
+        margin: 0px;
+        margin-top:60px;
+        padding: 20px;
+    }
+    /* brand-logu styles  */
+    .brand-logu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 31px;
+        grid-row-gap: 22px;
+    }
+
+    /* popular-cllection styles */
+    .p-title{
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
