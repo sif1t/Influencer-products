@@ -224,11 +224,13 @@ div span {
     margin-top: 16px;
     margin-bottom: 16px;
 }
-.featured-btn{
+
+.featured-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;;
+    font-size: 16px;
+    ;
     gap: 8px;
     width: 155px;
     height: 44px;
@@ -236,3 +238,45 @@ div span {
     background: #E02C6D;
     color: #FFFFFF;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 239px;
+    background: #0A0826;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #D9DBE1;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+.social-icon i{
+    color: #FFFFFF ;
+    width:32px;
+    height: 32px;
+    margin:10px 14px;
+}
+
