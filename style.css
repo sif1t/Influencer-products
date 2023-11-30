@@ -133,41 +133,62 @@ main {
     margin-top: 100px;
     margin-bottom: 30px;
 }
-.cards{
+
+.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
+
 .card {
     width: 329px;
     height: 476px;
     border-radius: 5px;
     background: #FFF;
-    padding: 17px ;
+    padding: 17px;
     color: #3A3A3A;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
+
 .card img {
     width: 100%;
 }
-.c-title{
+
+.c-title {
     font-size: 17px;
     font-weight: 600;
 }
-.c-price{
+
+.c-price {
     font-size: 15px;
     font-weight: 500;
 }
+
 div i {
     font-size: 16px;
     color: #FB8200;
 }
-div span{
+
+div span {
     font-size: 16px;
     margin-left: 10px;
 }
-.card-description{
+
+.card-description {
     font-size: 15px;
     font-weight: 500;
 }
+
+.see-more {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 50px;
+    float: right;
+    color: #E02C6DDE;
+}
+.see-more i{
+    margin-left: 15px;
+}
+
