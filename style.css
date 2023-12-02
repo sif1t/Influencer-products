@@ -268,44 +268,52 @@ div span {
     font-weight: 700;
     color: #D9DBE1;
 }
-.social-icon i{
-    color: #FFFFFF ;
-    width:32px;
+
+.social-icon i {
+    color: #FFFFFF;
+    width: 32px;
     height: 32px;
-    margin:10px 14px;
+    margin: 10px 14px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
 /* media-query small scrieen  */
 @media only screen and (max-width: 576px) {
-    .body, html{
+
+    .body,
+    html {
         width: none;
         height: none;
     }
+
     /* header styles  */
     header {
-        margin:0;
+        margin: 0;
         color: #3A3A3A;
         padding: 0px 20px;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         gap: 50px;
     }
-    .banner-img{
-       width: 447px;
-       height: 447px;
+
+    .banner-img {
+        width: 447px;
+        height: 447px;
 
     }
+
     .banner-title {
         font-size: 28px;
         font-weight: 700;
         line-height: 40px;
         margin: 0 18px;
     }
+
     .banner-description {
         font-size: 16px;
         font-weight: 600;
@@ -313,6 +321,7 @@ div span {
         margin-top: 15px;
         margin-bottom: 20px;
     }
+
     .b-btn {
         width: 196px;
         height: 44px;
@@ -325,13 +334,14 @@ div span {
         color: #fff;
     }
 
-    main{
+    main {
         margin: 0px;
-        margin-top:60px;
+        margin-top: 60px;
         padding: 20px;
     }
+
     /* brand-logu styles  */
-    .brand-logu{
+    .brand-logu {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 31px;
@@ -339,13 +349,47 @@ div span {
     }
 
     /* popular-cllection styles */
-    .p-title{
+    .p-title {
         font-size: 16px;
         font-weight: 600;
-        
+
     }
-    .cards{
+
+    .cards {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* featured section styles  */
+    .featured {
+        flex-direction: column-reverse;
+    }
+
+    .featured-title {
+        font-size: 24px;
+    }
+
+    .featured-description {
+        font-size: 16px;
+    }
+
+    .featured img {
+        width: 299px;
+        height: 188px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+    .footer-title{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .sub-title{
+        font-size: 12px;
+    }
+   
+
 }
